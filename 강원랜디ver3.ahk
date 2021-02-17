@@ -41,21 +41,6 @@ colorName :=colorsName[ran2]
 SendInput,{enter}{vk15sc138}%color%{vk15sc138}%colorName% -> {vk15sc138}|cff52E252{vk15sc138}%data%{vk15sc138}|r{vk15sc138}{enter}
 SendInput,{enter} ================={enter}
 return
-
-::!dlstoddmlrheh:: ;인생의고도
-send,{enter}
-i=1
-SendInput,{enter} ================={enter}
-loop %Pcount%
-{
-	Random,ran, 5,15
-	color := colors[i]
-	colorName :=colorsName[i]
-	SendInput,{enter}{vk15sc138}%color%{vk15sc138}%colorName% dml rhehtn-> %ran%qjs dlqslek.{vk15sc138}|r{vk15sc138}{enter}
-	i:=i+1
-}
-SendInput,{enter} ================={enter}
-return 
 ::!rkddnjsfosel2:: ;강원랜디ver2
 send,{enter}
 SendInput,{enter} ================={enter}
@@ -72,6 +57,21 @@ loop %Pcount%
 }
 SendInput,{enter} ================={enter}
 return
+::!dlstoddmlrheh:: ;인생의고도
+send,{enter}
+i=1
+SendInput,{enter} ================={enter}
+loop %Pcount%
+{
+	Random,ran, 5,15
+	color := colors[i]
+	colorName :=colorsName[i]
+	SendInput,{enter}{vk15sc138}%color%{vk15sc138}%colorName% dml rhehtn-> %ran%qjs dlqslek.{vk15sc138}|r{vk15sc138}{enter}
+	i:=i+1
+}
+SendInput,{enter} ================={enter}
+return 
+
 ::!wjstjf:: ;;전설 랜덤
 send,{enter}
 SendInput,{enter} ================={enter}
@@ -176,3 +176,4 @@ Random,ran,1,5
 SendInput,{enter}{vk15sc138}|cff52E252{vk15sc138}chlth rkwlrh dlTdjdigkf xhzms tnsms %ran%ro dlqslek.{enter}
 SendInput,{enter} ================={enter}
 return
+
